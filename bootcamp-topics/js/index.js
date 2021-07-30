@@ -7,6 +7,10 @@ class Topic {
 let topics = [
 ];
 
+const loaded = () => {
+    // do my initialization in here 
+}
+
 const remove = () => {
     let name = document.getElementById("name").value;
     let idx = -1;
